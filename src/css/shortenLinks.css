@@ -1,0 +1,87 @@
+form {
+    background: url(../images/bg-shorten-desktop.svg) no-repeat var(--dark-violet);
+    padding: 2.7rem 1.7rem;
+    border-radius: 12px;
+}
+
+.shorten-container {
+    position: relative;
+    top: -4rem;
+}
+
+.error-msg {
+    position: absolute;
+    bottom: 10px;
+    left: 1.7rem;
+    padding: 0;
+    margin-top: 5px;
+    font-style: italic;
+    color: var(--red);
+    font-weight: 500;
+    font-size: 13px;
+}
+
+.true {
+    display: block;
+}
+
+.false {
+    display: none;
+}
+
+input {
+    border: none;
+    width: 80%;
+    padding: 1rem;
+    border: 2px solid #fff;
+    border-radius: 10px;
+    font-family: "Poppins", sans-serif;
+}
+
+input:focus {
+    outline: none;
+}
+
+form .btn {
+    border-radius: 6px !important;
+    padding: 0.9rem 1.7rem;
+    width: 18%;
+    margin-left: 1rem;
+}
+
+.isEmpty {
+    border: 2px solid var(--red);
+    color: var(--red);
+}
+
+.isEmpty::placeholder {
+    color: var(--red);
+}
+
+@media screen and (max-width: 950px) {
+    form .btn {
+        width: 17%;
+    }
+}
+
+@media screen and (max-width: 850px) {
+    form .btn {
+        padding: 0.9rem 1rem;
+    }
+}
+
+@media screen and (max-width: 800px) {
+    input {
+        width: 100%;
+    }
+    form {
+        padding: 1rem;
+    }
+    form .btn {
+        width: 100%;
+        margin: 10px 0;
+    }
+    form {
+        background: url(../images/bg-shorten-mobile.svg) no-repeat top right var(--dark-violet);
+    }
+}

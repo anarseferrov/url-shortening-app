@@ -1,0 +1,19 @@
+.boost {
+    text-align: center;
+    background: var(--dark-violet) url(../images/bg-boost-desktop.svg) no-repeat center;
+    overflow: hidden;
+    color: #fff;
+    padding: 3rem 1rem;
+}
+
+.boost .btn,
+h2 {
+    margin: 10px;
+}
+
+@media screen and (max-width: 800px) {
+    .boost {
+        background: var(--dark-violet) url(../images/bg-boost-mobile.svg) no-repeat center;
+        background-size: cover;
+    }
+}

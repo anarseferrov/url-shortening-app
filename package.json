@@ -6,9 +6,13 @@
     "@testing-library/jest-dom": "^5.11.9",
     "@testing-library/react": "^11.2.3",
     "@testing-library/user-event": "^12.6.0",
+    "copy-to-clipboard": "^3.3.1",
+    "font-awesome": "^4.7.0",
+    "jquery": "^3.5.1",
     "react": "^17.0.1",
     "react-dom": "^17.0.1",
     "react-scripts": "4.0.1",
+    "save": "^2.4.0",
     "web-vitals": "^0.2.4"
   },
   "scripts": {

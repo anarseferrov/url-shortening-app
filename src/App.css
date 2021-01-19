@@ -1,38 +1,85 @@
-.App {
-  text-align: center;
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@500;700&display=swap");
+body {
+    font-family: "Poppins", sans-serif;
+    margin: 0;
+    padding: 0;
+    font-size: 18px;
+    overflow-x: hidden;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+* {
+    box-sizing: border-box;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+:root {
+    --cyan: hsl(180, 66%, 49%);
+    --dark-violet: hsl(257, 27%, 26%);
+    --red: hsl(0, 87%, 67%);
+    --gray: hsl(0, 0%, 75%);
+    --grayish-violet: hsl(257, 7%, 63%);
+    --very-dark-blue: hsl(255, 11%, 22%);
+    --very-dark-violet: hsl(260, 8%, 14%);
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.container {
+    max-width: 1100px;
+    margin: 0 auto;
 }
 
-.App-link {
-  color: #61dafb;
+a {
+    text-decoration: none;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+ul li {
+    list-style-type: none;
+}
+
+img {
+    width: 100%;
+    max-width: 100%;
+}
+
+.btn {
+    border: none;
+    cursor: pointer;
+    background-color: var(--cyan);
+    padding: 8px 1.5rem;
+    color: #fff;
+    font-family: "Poppins", sans-serif;
+    font-weight: 700;
+    border-radius: 1rem;
+    transition: 0.4s ease-in;
+}
+
+.btn:focus {
+    outline: none;
+}
+
+.btn:hover {
+    filter: brightness(130%);
+}
+
+@media screen and (max-width: 1150px) {
+    .container {
+        max-width: 900px;
+    }
+}
+
+@media screen and (max-width: 950px) {
+    .container {
+        max-width: 800px;
+    }
+}
+
+@media screen and (max-width: 850px) {
+    .container {
+        max-width: 768px;
+    }
+}
+
+@media screen and (max-width: 800px) {
+    .container {
+        max-width: 100%;
+        padding: 0 2rem;
+    }
 }
