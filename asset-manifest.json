@@ -1,0 +1,37 @@
+{
+  "files": {
+    "main.css": "/url-shortening-app/static/css/main.3de75df9.chunk.css",
+    "main.js": "/url-shortening-app/static/js/main.d4913876.chunk.js",
+    "main.js.map": "/url-shortening-app/static/js/main.d4913876.chunk.js.map",
+    "runtime-main.js": "/url-shortening-app/static/js/runtime-main.48de41e5.js",
+    "runtime-main.js.map": "/url-shortening-app/static/js/runtime-main.48de41e5.js.map",
+    "static/css/2.eec1b957.chunk.css": "/url-shortening-app/static/css/2.eec1b957.chunk.css",
+    "static/js/2.acfc5557.chunk.js": "/url-shortening-app/static/js/2.acfc5557.chunk.js",
+    "static/js/2.acfc5557.chunk.js.map": "/url-shortening-app/static/js/2.acfc5557.chunk.js.map",
+    "static/js/3.b6826a21.chunk.js": "/url-shortening-app/static/js/3.b6826a21.chunk.js",
+    "static/js/3.b6826a21.chunk.js.map": "/url-shortening-app/static/js/3.b6826a21.chunk.js.map",
+    "index.html": "/url-shortening-app/index.html",
+    "static/css/2.eec1b957.chunk.css.map": "/url-shortening-app/static/css/2.eec1b957.chunk.css.map",
+    "static/css/main.3de75df9.chunk.css.map": "/url-shortening-app/static/css/main.3de75df9.chunk.css.map",
+    "static/js/2.acfc5557.chunk.js.LICENSE.txt": "/url-shortening-app/static/js/2.acfc5557.chunk.js.LICENSE.txt",
+    "static/media/boost.css": "/url-shortening-app/static/media/bg-boost-mobile.4b04bd89.svg",
+    "static/media/shortenLinks.css": "/url-shortening-app/static/media/bg-shorten-mobile.41c34b33.svg",
+    "static/media/font-awesome.min.css": "/url-shortening-app/static/media/fontawesome-webfont.f691f37e.woff",
+    "static/media/icon-brand-recognition.c349d3b6.svg": "/url-shortening-app/static/media/icon-brand-recognition.c349d3b6.svg",
+    "static/media/icon-detailed-records.265c8aea.svg": "/url-shortening-app/static/media/icon-detailed-records.265c8aea.svg",
+    "static/media/icon-facebook.229c75a0.svg": "/url-shortening-app/static/media/icon-facebook.229c75a0.svg",
+    "static/media/icon-fully-customizable.a1532a74.svg": "/url-shortening-app/static/media/icon-fully-customizable.a1532a74.svg",
+    "static/media/icon-instagram.df587328.svg": "/url-shortening-app/static/media/icon-instagram.df587328.svg",
+    "static/media/icon-pinterest.a2d25ab4.svg": "/url-shortening-app/static/media/icon-pinterest.a2d25ab4.svg",
+    "static/media/icon-twitter.1d5c6d5e.svg": "/url-shortening-app/static/media/icon-twitter.1d5c6d5e.svg",
+    "static/media/illustration-working.c9b5ef54.svg": "/url-shortening-app/static/media/illustration-working.c9b5ef54.svg",
+    "static/media/logo.83464303.svg": "/url-shortening-app/static/media/logo.83464303.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.48de41e5.js",
+    "static/css/2.eec1b957.chunk.css",
+    "static/js/2.acfc5557.chunk.js",
+    "static/css/main.3de75df9.chunk.css",
+    "static/js/main.d4913876.chunk.js"
+  ]
+}
